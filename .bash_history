@@ -130,3 +130,20 @@ sqlcmd -S localhost -U ADMIN -P BlindForest0
 sqlcmd -S 127.0.0.1 -U SA -P BlindForest0
 sqlcmd -S 127.0.0.1:8181 -U SA -P BlindForest0
 git init
+git add .
+git remote add PandoraDB https://github.com/3D-Phantom/PandoraDB.git
+git push PandoraDB
+git init
+git add ,
+git add .
+git commit -m "First commit"
+git remote add PandoraDB https://github.com/3D-Phantom/PandoraDB.git
+git remote -v
+git push PandoraDB 
+git remote add origin git@github.com:3D-Phantom/PandoraDEVDB
+git push -u origin master
+git remote add PandoraDEVDB  git@github.com:3D-Phantom/PandoraDEVDB
+git push -u PandoraDEVDB master
+git remote add origin https://github.com/3D-Phantom/PandoraDEVDB.git
+git branch -M main
+git push -u PandoraDEVDB master
