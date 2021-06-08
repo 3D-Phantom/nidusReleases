@@ -1,0 +1,187 @@
+   info 2021-05-24 22:32:06.865         ad   main  20457  20457                         impl_selector - using sse2
+ * * * * * * * * * * * * * * * * * *
+   info 2021-05-24 22:32:06.865         ad   main  20457  20457                                  main - * AnyDesk Linux Startup *
+   info 2021-05-24 22:32:06.865         ad   main  20457  20457                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2021-05-24 22:32:06.865         ad   main  20457  20457                                  main - * Build 20210413130604
+   info 2021-05-24 22:32:06.865         ad   main  20457  20457                                  main - * Prefix ad
+   info 2021-05-24 22:32:06.865         ad   main  20457  20457                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2021-05-24 22:32:06.865         ad   main  20457  20457                                  main - 
+   info 2021-05-24 22:32:06.865         ad   main  20457  20457                                  main - Distribution Info: Ubuntu 20.04.2 LTS
+   info 2021-05-24 22:32:06.865         ad   main  20457  20457                                  main - Found GLib Version: 2.64.
+   info 2021-05-24 22:32:06.876         ad   main  20457  20457                       app.common_path - user_data_dir = /home/daniel/.anydesk, logged_in_user_data_dir = /home/daniel/.anydesk, current_home = /home/daniel
+
+   info 2021-05-24 22:32:06.876         ad   main  20457  20457                       app.common_path - initialized user = /home/daniel/.anydesk, system = /etc/anydesk
+   info 2021-05-24 22:32:06.880       tray   main  20457  20457                           gui.gui_app - DPI scaling: 1.00 / 1.00
+   info 2021-05-24 22:32:06.880       tray   main  20457  20457                           gui.gui_app - Using std-resolution bitmaps.
+   info 2021-05-24 22:32:06.896       tray   main  20457  20457                       base.signal.hub - 1 threads.
+   info 2021-05-24 22:32:06.896       tray   main  20457  20457                    app.tunnel_ft_comp - Ready.
+   info 2021-05-24 22:32:06.949       tray   ctrl  20457  20469                      unix_app.control - Control startup.
+  error 2021-05-24 22:32:06.949       tray   ctrl  20457  20469              base.signal.global.event - Cannot set the subsignal count to a smaller or equal value.
+  error 2021-05-24 22:32:06.963       tray   wrk0  20457  20470              base.prot.packet_factory - Invalid packet received (type=26, 4 bytes).
+  error 2021-05-24 22:32:06.963       tray   wrk0  20457  20470                        hub_ipc_socket - IPC packet deserialization failed.
+warning 2021-05-24 22:32:06.963       tray   wrk0  20457  20470        base.signal.global.shared_file - open (/var/lib/AccountsService/users/daniel) failed (13): Permiso denegado 
+warning 2021-05-24 22:32:06.963       tray   wrk0  20457  20470                      unix_app.control - Could not update account image (File not found: /home/daniel/.face.icon).
+   info 2021-05-24 22:32:27.560         ad   main  20560  20560                         impl_selector - using sse2
+ * * * * * * * * * * * * * * * * * *
+   info 2021-05-24 22:32:27.560         ad   main  20560  20560                                  main - * AnyDesk Linux Startup *
+   info 2021-05-24 22:32:27.560         ad   main  20560  20560                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2021-05-24 22:32:27.560         ad   main  20560  20560                                  main - * Build 20210413130604
+   info 2021-05-24 22:32:27.560         ad   main  20560  20560                                  main - * Prefix ad
+   info 2021-05-24 22:32:27.560         ad   main  20560  20560                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2021-05-24 22:32:27.560         ad   main  20560  20560                                  main - 
+   info 2021-05-24 22:32:27.560         ad   main  20560  20560                                  main - Distribution Info: Ubuntu 20.04.2 LTS
+   info 2021-05-24 22:32:27.560         ad   main  20560  20560                                  main - Found GLib Version: 2.64.
+   info 2021-05-24 22:32:27.571         ad   main  20560  20560                       app.common_path - user_data_dir = /home/daniel/.anydesk, logged_in_user_data_dir = /home/daniel/.anydesk, current_home = /home/daniel
+
+   info 2021-05-24 22:32:27.572         ad   main  20560  20560                       app.common_path - initialized user = /home/daniel/.anydesk, system = /etc/anydesk
+   info 2021-05-24 22:32:27.572         ad   main  20560  20560                       app.common_path - user_data_dir = /home/daniel/.anydesk, logged_in_user_data_dir = /home/daniel/.anydesk, current_home = /home/daniel
+
+   info 2021-05-24 22:32:27.572         ad   main  20560  20560                       app.common_path - initialized user = /home/daniel/.anydesk, system = /etc/anydesk
+   info 2021-05-24 22:32:27.572         ad   main  20560  20560                                  main - Starting frontend process (20560).
+   info 2021-05-24 22:32:27.574   frontend   main  20560  20560                           gui.gui_app - DPI scaling: 1.00 / 1.00
+   info 2021-05-24 22:32:27.574   frontend   main  20560  20560                           gui.gui_app - Using std-resolution bitmaps.
+warning 2021-05-24 22:32:27.585   frontend   main  20560  20560        base.signal.global.shared_file - open (/var/lib/AccountsService/users/daniel) failed (13): Permiso denegado 
+warning 2021-05-24 22:32:27.585   frontend   main  20560  20560                         app.user_info - Could not update user image (File not found: /home/daniel/.face.icon). Defaulting.
+   info 2021-05-24 22:32:27.589   frontend   main  20560  20560                       base.signal.hub - 8 threads.
+   info 2021-05-24 22:32:27.589   frontend   timr  20560  20565          base.signal.local.timer_impl - Initialized master timer.
+   info 2021-05-24 22:32:27.684   frontend   ctrl  20560  20566                     unix_app.frontend - Frontend startup.
+   info 2021-05-24 22:32:27.684   frontend   ctrl  20560  20566                     unix_app.frontend - Logging the frontend in.
+warning 2021-05-24 22:32:27.684   frontend   ctrl  20560  20566        base.signal.global.shared_file - open (/var/lib/AccountsService/users/daniel) failed (13): Permiso denegado 
+warning 2021-05-24 22:32:27.684   frontend   ctrl  20560  20566                         app.user_info - Could not update user image (File not found: /home/daniel/.face.icon). Defaulting.
+warning 2021-05-24 22:32:27.829   frontend   wrk1  20560  20568        base.signal.global.shared_file - open (/var/lib/AccountsService/users/daniel) failed (13): Permiso denegado 
+warning 2021-05-24 22:32:27.829   frontend   wrk1  20560  20568                         app.user_info - Could not update user image (File not found: /home/daniel/.face.icon). Defaulting.
+   info 2021-05-24 22:32:27.880   frontend   main  20560  20560                     unix_app.frontend - Monitoring online states.
+   info 2021-05-24 22:32:27.880   frontend   main  20560  20560                     unix_app.frontend - Monitoring online states.
+   info 2021-05-24 22:32:27.881   frontend   main  20560  20560                     unix_app.frontend - Monitoring online states.
+   info 2021-05-24 22:32:27.952   frontend    x11  20560  20564                     base.monitor_info - Monitor 0: x/y : 1920/0
+   info 2021-05-24 22:32:27.952   frontend    x11  20560  20564                     base.monitor_info - Monitor 0: w/h : 1920/1080
+   info 2021-05-24 22:32:27.952   frontend    x11  20560  20564                     base.monitor_info - Monitor 0 output=65
+   info 2021-05-24 22:32:27.953   frontend    x11  20560  20564                     base.monitor_info - Monitor 2: x/y : 0/0
+   info 2021-05-24 22:32:27.953   frontend    x11  20560  20564                     base.monitor_info - Monitor 2: w/h : 1920/1080
+   info 2021-05-24 22:32:27.953   frontend    x11  20560  20564                     base.monitor_info - Monitor 2 output=67
+   info 2021-05-24 22:32:27.953   frontend   main  20560  20560                     unix_app.frontend - Monitoring online states.
+   info 2021-05-24 22:32:27.954   frontend   main  20560  20560                     unix_app.frontend - Monitoring online states.
+   info 2021-05-25 00:16:32.833   frontend   ctrl  20560  20566                     unix_app.frontend - Frontend shutdown.
+   info 2021-05-25 00:16:32.839   frontend   main  20560  20560                     unix_app.frontend - Monitoring online states.
+   info 2021-05-25 00:16:32.839   frontend   main  20560  20560                     unix_app.frontend - Monitoring online states.
+   info 2021-05-25 00:16:33.293   frontend   ctrl  20560  20566                       base.signal.hub - Control quit.
+   info 2021-05-25 00:16:33.295   frontend   timr  20560  20565          base.signal.local.timer_impl - Timer wants to quit.
+   info 2021-05-25 00:16:33.300   frontend   main  20560  20560              base.prot.job_dispatcher - 0 undelivered packets.
+   info 2021-05-25 00:16:33.301   frontend   main  20560  20560                                  main - Exiting normally.
+  error 2021-05-25 15:42:30.582       tray   wrk0  20457  20470                      unix_app.control - Service connection lost.
+   info 2021-05-25 15:42:30.589       tray   ctrl  20457  20469                    app.tunnel_ft_comp - Stopping file component.
+   info 2021-05-25 15:45:04.128         ad   main   2232   2232                         impl_selector - using sse2
+ * * * * * * * * * * * * * * * * * *
+   info 2021-05-25 15:45:04.131         ad   main   2232   2232                                  main - * AnyDesk Linux Startup *
+   info 2021-05-25 15:45:04.131         ad   main   2232   2232                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2021-05-25 15:45:04.131         ad   main   2232   2232                                  main - * Build 20210413130604
+   info 2021-05-25 15:45:04.131         ad   main   2232   2232                                  main - * Prefix ad
+   info 2021-05-25 15:45:04.131         ad   main   2232   2232                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2021-05-25 15:45:04.131         ad   main   2232   2232                                  main - 
+   info 2021-05-25 15:45:04.131         ad   main   2232   2232                                  main - Distribution Info: Ubuntu 20.04.2 LTS
+   info 2021-05-25 15:45:04.131         ad   main   2232   2232                                  main - Found GLib Version: 2.64.
+   info 2021-05-25 15:45:04.180         ad   main   2232   2232                       app.common_path - user_data_dir = /home/daniel/.anydesk, logged_in_user_data_dir = /home/daniel/.anydesk, current_home = /home/daniel
+
+   info 2021-05-25 15:45:04.180         ad   main   2232   2232                       app.common_path - initialized user = /home/daniel/.anydesk, system = /etc/anydesk
+   info 2021-05-25 15:45:04.193       tray   main   2232   2232                           gui.gui_app - DPI scaling: 1.00 / 1.00
+   info 2021-05-25 15:45:04.193       tray   main   2232   2232                           gui.gui_app - Using std-resolution bitmaps.
+   info 2021-05-25 15:45:04.216       tray   main   2232   2232                       base.signal.hub - 1 threads.
+   info 2021-05-25 15:45:04.216       tray   main   2232   2232                    app.tunnel_ft_comp - Ready.
+   info 2021-05-25 15:45:04.267       tray   ctrl   2232   2295                      unix_app.control - Control startup.
+  error 2021-05-25 15:45:04.267       tray   ctrl   2232   2295              base.signal.global.event - Cannot set the subsignal count to a smaller or equal value.
+  error 2021-05-25 15:45:04.279       tray   wrk0   2232   2296              base.prot.packet_factory - Invalid packet received (type=26, 4 bytes).
+  error 2021-05-25 15:45:04.279       tray   wrk0   2232   2296                        hub_ipc_socket - IPC packet deserialization failed.
+warning 2021-05-25 15:45:04.279       tray   wrk0   2232   2296        base.signal.global.shared_file - open (/var/lib/AccountsService/users/daniel) failed (13): Permiso denegado 
+warning 2021-05-25 15:45:04.281       tray   wrk0   2232   2296                      unix_app.control - Could not update account image (File not found: /home/daniel/.face.icon).
+   info 2021-05-26 15:50:34.044         ad   main   1980   1980                         impl_selector - using sse2
+ * * * * * * * * * * * * * * * * * *
+   info 2021-05-26 15:50:34.044         ad   main   1980   1980                                  main - * AnyDesk Linux Startup *
+   info 2021-05-26 15:50:34.044         ad   main   1980   1980                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2021-05-26 15:50:34.044         ad   main   1980   1980                                  main - * Build 20210413130604
+   info 2021-05-26 15:50:34.044         ad   main   1980   1980                                  main - * Prefix ad
+   info 2021-05-26 15:50:34.044         ad   main   1980   1980                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2021-05-26 15:50:34.044         ad   main   1980   1980                                  main - 
+   info 2021-05-26 15:50:34.044         ad   main   1980   1980                                  main - Distribution Info: Ubuntu 20.04.2 LTS
+   info 2021-05-26 15:50:34.044         ad   main   1980   1980                                  main - Found GLib Version: 2.64.
+   info 2021-05-26 15:50:34.084         ad   main   1980   1980                       app.common_path - user_data_dir = /home/daniel/.anydesk, logged_in_user_data_dir = /home/daniel/.anydesk, current_home = /home/daniel
+
+   info 2021-05-26 15:50:34.084         ad   main   1980   1980                       app.common_path - initialized user = /home/daniel/.anydesk, system = /etc/anydesk
+   info 2021-05-26 15:50:34.097       tray   main   1980   1980                           gui.gui_app - DPI scaling: 1.00 / 1.00
+   info 2021-05-26 15:50:34.097       tray   main   1980   1980                           gui.gui_app - Using std-resolution bitmaps.
+   info 2021-05-26 15:50:34.125       tray   main   1980   1980                       base.signal.hub - 1 threads.
+   info 2021-05-26 15:50:34.125       tray   main   1980   1980                    app.tunnel_ft_comp - Ready.
+   info 2021-05-26 15:50:34.188       tray   ctrl   1980   2045                      unix_app.control - Control startup.
+  error 2021-05-26 15:50:34.189       tray   ctrl   1980   2045              base.signal.global.event - Cannot set the subsignal count to a smaller or equal value.
+  error 2021-05-26 15:50:34.200       tray   wrk0   1980   2051              base.prot.packet_factory - Invalid packet received (type=26, 4 bytes).
+  error 2021-05-26 15:50:34.200       tray   wrk0   1980   2051                        hub_ipc_socket - IPC packet deserialization failed.
+warning 2021-05-26 15:50:34.200       tray   wrk0   1980   2051        base.signal.global.shared_file - open (/var/lib/AccountsService/users/daniel) failed (13): Permiso denegado 
+warning 2021-05-26 15:50:34.203       tray   wrk0   1980   2051                      unix_app.control - Could not update account image (File not found: /home/daniel/.face.icon).
+   info 2021-05-27 15:40:28.110         ad   main   2252   2252                         impl_selector - using sse2
+ * * * * * * * * * * * * * * * * * *
+   info 2021-05-27 15:40:28.111         ad   main   2252   2252                                  main - * AnyDesk Linux Startup *
+   info 2021-05-27 15:40:28.111         ad   main   2252   2252                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2021-05-27 15:40:28.111         ad   main   2252   2252                                  main - * Build 20210413130604
+   info 2021-05-27 15:40:28.111         ad   main   2252   2252                                  main - * Prefix ad
+   info 2021-05-27 15:40:28.111         ad   main   2252   2252                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2021-05-27 15:40:28.111         ad   main   2252   2252                                  main - 
+   info 2021-05-27 15:40:28.111         ad   main   2252   2252                                  main - Distribution Info: Ubuntu 20.04.2 LTS
+   info 2021-05-27 15:40:28.111         ad   main   2252   2252                                  main - Found GLib Version: 2.64.
+   info 2021-05-27 15:40:28.151         ad   main   2252   2252                       app.common_path - user_data_dir = /home/daniel/.anydesk, logged_in_user_data_dir = /home/daniel/.anydesk, current_home = /home/daniel
+
+   info 2021-05-27 15:40:28.151         ad   main   2252   2252                       app.common_path - initialized user = /home/daniel/.anydesk, system = /etc/anydesk
+   info 2021-05-27 15:40:28.186       tray   main   2252   2252                           gui.gui_app - DPI scaling: 1.00 / 1.00
+   info 2021-05-27 15:40:28.186       tray   main   2252   2252                           gui.gui_app - Using std-resolution bitmaps.
+   info 2021-05-27 15:40:28.205       tray   main   2252   2252                       base.signal.hub - 1 threads.
+   info 2021-05-27 15:40:28.205       tray   main   2252   2252                    app.tunnel_ft_comp - Ready.
+   info 2021-05-27 15:40:28.261       tray   ctrl   2252   2339                      unix_app.control - Control startup.
+  error 2021-05-27 15:40:28.280       tray   ctrl   2252   2339              base.signal.global.event - Cannot set the subsignal count to a smaller or equal value.
+  error 2021-05-27 15:40:28.280       tray   wrk0   2252   2340              base.prot.packet_factory - Invalid packet received (type=26, 4 bytes).
+  error 2021-05-27 15:40:28.280       tray   wrk0   2252   2340                        hub_ipc_socket - IPC packet deserialization failed.
+warning 2021-05-27 15:40:28.280       tray   wrk0   2252   2340        base.signal.global.shared_file - open (/var/lib/AccountsService/users/daniel) failed (13): Permiso denegado 
+warning 2021-05-27 15:40:28.282       tray   wrk0   2252   2340                      unix_app.control - Could not update account image (File not found: /home/daniel/.face.icon).
+   info 2021-05-28 15:32:58.101         ad   main   2177   2177                         impl_selector - using sse2
+ * * * * * * * * * * * * * * * * * *
+   info 2021-05-28 15:32:58.101         ad   main   2177   2177                                  main - * AnyDesk Linux Startup *
+   info 2021-05-28 15:32:58.101         ad   main   2177   2177                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2021-05-28 15:32:58.101         ad   main   2177   2177                                  main - * Build 20210413130604
+   info 2021-05-28 15:32:58.101         ad   main   2177   2177                                  main - * Prefix ad
+   info 2021-05-28 15:32:58.101         ad   main   2177   2177                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2021-05-28 15:32:58.101         ad   main   2177   2177                                  main - 
+   info 2021-05-28 15:32:58.101         ad   main   2177   2177                                  main - Distribution Info: Ubuntu 20.04.2 LTS
+   info 2021-05-28 15:32:58.101         ad   main   2177   2177                                  main - Found GLib Version: 2.64.
+   info 2021-05-28 15:32:58.159         ad   main   2177   2177                       app.common_path - user_data_dir = /home/daniel/.anydesk, logged_in_user_data_dir = /home/daniel/.anydesk, current_home = /home/daniel
+
+   info 2021-05-28 15:32:58.159         ad   main   2177   2177                       app.common_path - initialized user = /home/daniel/.anydesk, system = /etc/anydesk
+   info 2021-05-28 15:32:58.161       tray   main   2177   2177                           gui.gui_app - DPI scaling: 1.00 / 1.00
+   info 2021-05-28 15:32:58.161       tray   main   2177   2177                           gui.gui_app - Using std-resolution bitmaps.
+   info 2021-05-28 15:32:58.182       tray   main   2177   2177                       base.signal.hub - 1 threads.
+   info 2021-05-28 15:32:58.182       tray   main   2177   2177                    app.tunnel_ft_comp - Ready.
+   info 2021-05-28 15:32:58.274       tray   ctrl   2177   2250                      unix_app.control - Control startup.
+  error 2021-05-28 15:32:58.276       tray   ctrl   2177   2250              base.signal.global.event - Cannot set the subsignal count to a smaller or equal value.
+  error 2021-05-28 15:32:58.285       tray   wrk0   2177   2258              base.prot.packet_factory - Invalid packet received (type=26, 4 bytes).
+  error 2021-05-28 15:32:58.285       tray   wrk0   2177   2258                        hub_ipc_socket - IPC packet deserialization failed.
+warning 2021-05-28 15:32:58.285       tray   wrk0   2177   2258        base.signal.global.shared_file - open (/var/lib/AccountsService/users/daniel) failed (13): Permiso denegado 
+warning 2021-05-28 15:32:58.287       tray   wrk0   2177   2258                      unix_app.control - Could not update account image (File not found: /home/daniel/.face.icon).
+   info 2021-05-31 16:19:44.780         ad   main   2229   2229                         impl_selector - using sse2
+ * * * * * * * * * * * * * * * * * *
+   info 2021-05-31 16:19:44.781         ad   main   2229   2229                                  main - * AnyDesk Linux Startup *
+   info 2021-05-31 16:19:44.781         ad   main   2229   2229                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2021-05-31 16:19:44.781         ad   main   2229   2229                                  main - * Build 20210413130604
+   info 2021-05-31 16:19:44.781         ad   main   2229   2229                                  main - * Prefix ad
+   info 2021-05-31 16:19:44.781         ad   main   2229   2229                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2021-05-31 16:19:44.781         ad   main   2229   2229                                  main - 
+   info 2021-05-31 16:19:44.781         ad   main   2229   2229                                  main - Distribution Info: Ubuntu 20.04.2 LTS
+   info 2021-05-31 16:19:44.781         ad   main   2229   2229                                  main - Found GLib Version: 2.64.
+   info 2021-05-31 16:19:44.816         ad   main   2229   2229                       app.common_path - user_data_dir = /home/daniel/.anydesk, logged_in_user_data_dir = /home/daniel/.anydesk, current_home = /home/daniel
+
+   info 2021-05-31 16:19:44.816         ad   main   2229   2229                       app.common_path - initialized user = /home/daniel/.anydesk, system = /etc/anydesk
+   info 2021-05-31 16:19:44.821       tray   main   2229   2229                           gui.gui_app - DPI scaling: 1.00 / 1.00
+   info 2021-05-31 16:19:44.821       tray   main   2229   2229                           gui.gui_app - Using std-resolution bitmaps.
+   info 2021-05-31 16:19:44.843       tray   main   2229   2229                       base.signal.hub - 1 threads.
+   info 2021-05-31 16:19:44.843       tray   main   2229   2229                    app.tunnel_ft_comp - Ready.
+   info 2021-05-31 16:19:44.921       tray   ctrl   2229   2340                      unix_app.control - Control startup.
+  error 2021-05-31 16:19:44.925       tray   ctrl   2229   2340              base.signal.global.event - Cannot set the subsignal count to a smaller or equal value.
+  error 2021-05-31 16:19:44.974       tray   wrk0   2229   2342              base.prot.packet_factory - Invalid packet received (type=26, 4 bytes).
+  error 2021-05-31 16:19:44.974       tray   wrk0   2229   2342                        hub_ipc_socket - IPC packet deserialization failed.
+warning 2021-05-31 16:19:44.975       tray   wrk0   2229   2342        base.signal.global.shared_file - open (/var/lib/AccountsService/users/daniel) failed (13): Permiso denegado 
+warning 2021-05-31 16:19:44.977       tray   wrk0   2229   2342                      unix_app.control - Could not update account image (File not found: /home/daniel/.face.icon).
